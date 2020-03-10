@@ -49,7 +49,8 @@
 
 % 
 % Date: 19/01/2015
-% Author: Filip Franek, AudibleBits
+% Author: Filip Franek, AudibleBits, filip@audiblebits.com
+%
 % Code modified from function tabcd obtained from https://asap.ite.tul.cz/downloads/t-abcd-a-time-domain-method-for-
 %                       blind-audio-source-separation-based-on-a-complete-ica-decomposition-of-an-observation-space/
 %
