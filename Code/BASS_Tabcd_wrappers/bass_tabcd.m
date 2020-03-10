@@ -50,7 +50,7 @@
 % 
 % Date: 19/01/2015
 % Author: Filip Franek, AudibleBits, filip@audiblebits.com
-%
+% 
 % Code modified from function tabcd obtained from https://asap.ite.tul.cz/downloads/t-abcd-a-time-domain-method-for-
 %                       blind-audio-source-separation-based-on-a-complete-ica-decomposition-of-an-observation-space/
 %
@@ -59,7 +59,8 @@
 %       ICA decomposition of an observation space." IEEE transactions on audio, speech, and language processing 19, 
 %       no. 2 (2010): 406-416.
 % 
-% Copyright (C) 2020 Filip Franek
+% Original work Copyright (C) 2020 Zbynek Koldovsky and Petr Tichavsky
+% Modified Work Copyright (C) 2020 Filip Franek
 %%
 function [y, est, data, Xdis] = bass_tabcd(x, Fs, ICAmet, fiLen, similStr, subBandsR, muPar, clust, weiTypStr, weiVal, xName);
 

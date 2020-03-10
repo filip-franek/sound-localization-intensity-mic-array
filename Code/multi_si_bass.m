@@ -17,8 +17,9 @@
 %   [2] Koldovsky, 
 %   [3] Franek, Filip. "Localization of Incoherent Sound Sources by
 %       Three-dimensional Intensity Array." (2014)
-
-% Copyright (C) 2020 Filip Franek
+%
+% Original work Copyright (C) 2020 Zbynek Koldovsky and Petr Tichavsky
+% Modified Work Copyright (C) 2020 Filip Franek
 %%
 
 clear all; clc; close all;
