@@ -1,16 +1,16 @@
 %% multi_si_bass.m Multiple Sound Source Localization Using 3D Sound Intensity Method and BASS
 %
-%     Sound sources location estimation based on 3D sound intensity measurement at presence of 4 sound sources 
-%     simultaneously playing. Blind Audio Source Separation (BASS) is used to separate the sound sources.
-%     Sound recordings are taken in an anechoic chamber.
-%     
-%      variables to change
-%          'varName' :	description
-%                       can have such and such values
-%                        * 'var1': description
-%                        * 'var2': description
-% Date: 03/03/2020
-% Author: Filip Franek, AudibleBits
+%	Sound sources location estimation based on 3D sound intensity measurement at presence of 4 sound sources 
+%   simultaneously playing. Blind Audio Source Separation (BASS) is used to separate the sound sources.
+%   Sound recordings are taken in an anechoic chamber.
+%   
+%   clone github repository and run this file to process measured data files and return plots
+%
+%   variables
+%   	overWrite   :   overwrite BASS results or load from mat file [true/false]
+% 
+% Date: 10/03/2020
+% Author: Filip Franek, AudibleBits, filip@audiblebits.com
 %
 %  References:
 %   [1] Fahy, Frank J., and Vincent Salmon. "Sound intensity." (1990): 2044-2045.
