@@ -55,11 +55,11 @@
 %                       blind-audio-source-separation-based-on-a-complete-ica-decomposition-of-an-observation-space/
 %
 %  References:
-%   [1] Koldovsky, Zbyn?k, and Petr Tichavsky. "Time-domain blind separation of audio sources on the basis of a complete 
+%   [1] Koldovsky, Zbynek, and Petr Tichavsky. "Time-domain blind separation of audio sources on the basis of a complete 
 %       ICA decomposition of an observation space." IEEE transactions on audio, speech, and language processing 19, 
 %       no. 2 (2010): 406-416.
 % 
-% Original work Copyright (C) 2020 Zbynek Koldovsky and Petr Tichavsky
+% Original work Copyright (C) 2016 Zbynek Koldovsky and Petr Tichavsky
 % Modified Work Copyright (C) 2020 Filip Franek
 %%
 function [y, est, data, Xdis] = bass_tabcd(x, Fs, ICAmet, fiLen, similStr, subBandsR, muPar, clust, weiTypStr, weiVal, xName);

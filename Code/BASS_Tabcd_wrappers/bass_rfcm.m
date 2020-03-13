@@ -1,7 +1,8 @@
 %% bass_rfcm.m Blind Audio Sound Source Separation (BASS) for Relational Fuzzy C-means function
 
-% Original work Copyright (C) 2020 Zbynek Koldovsky and Petr Tichavsky
+% Original work Copyright (C) 2016 Zbynek Koldovsky and Petr Tichavsky
 % Modified Work Copyright (C) 2020 Filip Franek
+%%
 function [order,clus,weights,unor,silh,Xdis] = BASS_rfcm(R,c,m,init,e, ShowResults, ShowHist)
 
 %Function for Relational Fuzzy C-means (output for convolutive demixing program, clusBGL)
