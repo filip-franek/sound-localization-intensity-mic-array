@@ -5,4 +5,9 @@ The methods and experiments are detaily explained in Master Thesis at: https://w
 
 To run the code and generate results as in Doc/Paper_LocalizationOfIncoherentMultipleSourcesUsingAThreeDimensionalSoundIntensityArray_FilipFranek2015.pdf run the code in Code/multi_si_bass.m in Matlab
 
+The code is tested on Matlab 9.6 with the following toolboxes used:
+- Signal Processing Toolbox V8.2
+- Statistics and Machine Learning Toolbox V11.5
+- Curve Fitting Toolbox V3.5.9
+
 If you have any questions, please do not hesitate to contact me at filip@audiblebits.com
